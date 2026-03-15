@@ -1,14 +1,4 @@
-class TreeNode { 
-    val : number; 
-    left : TreeNode | null;
-    right : TreeNode | null;
-
-    constructor(val?: number, left?: TreeNode | null, right? : TreeNode | null){
-        this.val = val ?? 0; 
-        this.left = left ?? null;
-        this.right = right ?? null;
-    }
-}
+import { TreeNode } from './TreeNode';
 
 const treeNode1 = new TreeNode(1);
 const treeNode3 = new TreeNode (3);
