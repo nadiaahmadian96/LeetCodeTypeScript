@@ -1,3 +1,12 @@
+// Problem: LeetCode 141 - Linked List Cycle
+// Given the head of a linked list, determine if it contains a cycle.
+// A cycle exists if a node's next pointer points back to a previous node.
+// Example: 3→2→0→-4→(back to 2) → true
+//
+// Solution: Floyd's fast/slow pointer algorithm (tortoise and hare).
+// Move slow by 1 and fast by 2 each step. If they ever meet, there's a cycle.
+// Time: O(n) | Space: O(1)
+//
 // class ListNode{
 //     val : number; 
 //     next : ListNode | null; 

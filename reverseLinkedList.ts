@@ -1,3 +1,10 @@
+// Problem: LeetCode 206 - Reverse Linked List
+// Given the head of a singly linked list, reverse it and return the new head.
+// Example: 1→2→3→4→5 → 5→4→3→2→1
+//
+// Solution: Iterative with prev/curr pointers.
+// At each step, redirect curr.next to prev, then advance both pointers forward.
+// Time: O(n) | Space: O(1)
 class ListNode{
     val : number;
     next : ListNode | null;

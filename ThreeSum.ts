@@ -1,3 +1,12 @@
+// Problem: LeetCode 15 - 3Sum
+// Given an integer array, return all unique triplets [nums[i], nums[j], nums[k]]
+// such that i, j, k are distinct and nums[i] + nums[j] + nums[k] == 0.
+// Example: [-1,0,1,2,-1,-4] → [[-1,-1,2],[-1,0,1]]
+//
+// Solution: Sort + two pointers.
+// Fix one element with the outer loop, then use a left/right pointer on the remainder.
+// Skip duplicates at both the outer loop and pointer levels to avoid repeated triplets.
+// Time: O(n²) | Space: O(1) (excluding output)
 function threeSum(nums: number[]) : number[][]{
     const result : number[][] = [];
     nums.sort((a,b)=> a-b);
