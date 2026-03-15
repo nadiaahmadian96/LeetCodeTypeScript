@@ -51,6 +51,8 @@ Each file includes a comment block at the top describing the problem, example, a
 | # | File | Problem | What You're Solving | Difficulty |
 |---|------|---------|---------------------|------------|
 | 70 | [climbStairs.ts](climbStairs.ts) | Climb Stairs | Count distinct ways to reach the top climbing 1 or 2 steps at a time | Easy |
+| 322 | [coinChange.ts](coinChange.ts) | Coin Change | Find the fewest coins that sum to a target amount | Medium |
+| 1143 | [longestCommonSubsequence.ts](longestCommonSubsequence.ts) | Longest Common Subsequence | Find the length of the longest common subsequence of two strings | Medium |
 
 ## Setup
 
