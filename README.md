@@ -46,6 +46,12 @@ Each file includes a comment block at the top describing the problem, example, a
 | 98 | [validBST.ts](validBST.ts) | Validate Binary Search Tree | Determine if a binary tree is a valid BST | Medium |
 | — | [TreeNode.ts](TreeNode.ts) | Shared TreeNode class | Reusable tree node definition used across tree problems | — |
 
+### Graphs
+
+| # | File | Problem | What You're Solving | Difficulty |
+|---|------|---------|---------------------|------------|
+| 200 | [numIslands.ts](numIslands.ts) | Number of Islands | Count connected groups of land cells in a 2D grid using DFS flood fill | Medium |
+
 ### Dynamic Programming
 
 | # | File | Problem | What You're Solving | Difficulty |
@@ -53,6 +59,7 @@ Each file includes a comment block at the top describing the problem, example, a
 | 70 | [climbStairs.ts](climbStairs.ts) | Climb Stairs | Count distinct ways to reach the top climbing 1 or 2 steps at a time | Easy |
 | 322 | [coinChange.ts](coinChange.ts) | Coin Change | Find the fewest coins that sum to a target amount | Medium |
 | 1143 | [longestCommonSubsequence.ts](longestCommonSubsequence.ts) | Longest Common Subsequence | Find the length of the longest common subsequence of two strings | Medium |
+| 139 | [workBreak.ts](workBreak.ts) | Word Break | Determine if a string can be segmented into valid dictionary words | Medium |
 
 ## Setup
 
