@@ -19,6 +19,8 @@ Each file includes a comment block at the top describing the problem, example, a
 | 33 | [SearchInRotatedSortedArray.ts](SearchInRotatedSortedArray.ts) | Search in Rotated Sorted Array | Find a target's index in a rotated sorted array | Medium |
 | 15 | [ThreeSum.ts](ThreeSum.ts) | 3Sum | Find all unique triplets that sum to zero | Medium |
 | 11 | [containerWithMostWater.ts](containerWithMostWater.ts) | Container With Most Water | Find two lines forming the container that holds the most water | Medium |
+| 56 | [mergeIntervals.ts](mergeIntervals.ts) | Merge Intervals | Merge all overlapping intervals into non-overlapping intervals | Medium |
+| 303 | [NumArray.ts](NumArray.ts) | Range Sum Query - Immutable | Answer range sum queries in O(1) using a prefix sum array | Easy |
 
 ### Strings & Sliding Window
 
@@ -64,6 +66,7 @@ Each file includes a comment block at the top describing the problem, example, a
 
 | # | File | Problem | What You're Solving | Difficulty |
 |---|------|---------|---------------------|------------|
+| 46 | [premute.ts](premute.ts) | Permutations | Generate all possible permutations of a distinct integer array | Medium |
 | 78 | [subsets.ts](subsets.ts) | Subsets | Generate all possible subsets (power set) of a unique integer array | Medium |
 
 ### Dynamic Programming
