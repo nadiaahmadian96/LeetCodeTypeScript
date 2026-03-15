@@ -51,6 +51,20 @@ Each file includes a comment block at the top describing the problem, example, a
 | # | File | Problem | What You're Solving | Difficulty |
 |---|------|---------|---------------------|------------|
 | 200 | [numIslands.ts](numIslands.ts) | Number of Islands | Count connected groups of land cells in a 2D grid using DFS flood fill | Medium |
+| 200 | [numIslandsBFS.ts](numIslandsBFS.ts) | Number of Islands (BFS) | Same as above but uses BFS flood fill instead of DFS | Medium |
+
+### Sorting Algorithms
+
+| # | File | Problem | What You're Solving | Difficulty |
+|---|------|---------|---------------------|------------|
+| — | [mergeSort.ts](mergeSort.ts) | Merge Sort | Sort an array using divide-and-conquer merging of sorted halves | — |
+| — | [quickSortArray.ts](quickSortArray.ts) | Quick Sort | Sort an array in-place using pivot partitioning (Lomuto scheme) | — |
+
+### Backtracking
+
+| # | File | Problem | What You're Solving | Difficulty |
+|---|------|---------|---------------------|------------|
+| 78 | [subsets.ts](subsets.ts) | Subsets | Generate all possible subsets (power set) of a unique integer array | Medium |
 
 ### Dynamic Programming
 
