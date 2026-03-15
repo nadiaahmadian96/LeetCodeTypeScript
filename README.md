@@ -21,6 +21,8 @@ Each file includes a comment block at the top describing the problem, example, a
 | 11 | [containerWithMostWater.ts](containerWithMostWater.ts) | Container With Most Water | Find two lines forming the container that holds the most water | Medium |
 | 56 | [mergeIntervals.ts](mergeIntervals.ts) | Merge Intervals | Merge all overlapping intervals into non-overlapping intervals | Medium |
 | 303 | [NumArray.ts](NumArray.ts) | Range Sum Query - Immutable | Answer range sum queries in O(1) using a prefix sum array | Easy |
+| 268 | [missingNumber.ts](missingNumber.ts) | Missing Number | Find the one missing number in a range [0, n] using Gauss's formula | Easy |
+| 283 | [moveZeroes.ts](moveZeroes.ts) | Move Zeroes | Move all zeros to the end in-place while preserving relative order | Easy |
 
 ### Strings & Sliding Window
 
@@ -28,6 +30,10 @@ Each file includes a comment block at the top describing the problem, example, a
 |---|------|---------|---------------------|------------|
 | 3 | [lengthOfLongestSubstring.ts](lengthOfLongestSubstring.ts) | Longest Substring Without Repeating Characters | Find the length of the longest substring with all unique characters | Medium |
 | 20 | [validParantheses.ts](validParantheses.ts) | Valid Parentheses | Determine if a bracket string is correctly opened and closed | Easy |
+| 125 | [palindromeCheck.ts](palindromeCheck.ts) | Valid Palindrome | Check if a string reads the same forward and backward after cleaning | Easy |
+| 242 | [anagram.ts](anagram.ts) | Valid Anagram | Determine if two strings are anagrams using a character frequency map | Easy |
+| 344 | [reverseString.ts](reverseString.ts) | Reverse String | Reverse a character array in-place using two pointers | Easy |
+| 387 | [firstUniqueChar.ts](firstUniqueChar.ts) | First Unique Character in a String | Find the index of the first non-repeating character | Easy |
 
 ### Linked Lists
 
@@ -54,6 +60,7 @@ Each file includes a comment block at the top describing the problem, example, a
 |---|------|---------|---------------------|------------|
 | 200 | [numIslands.ts](numIslands.ts) | Number of Islands | Count connected groups of land cells in a 2D grid using DFS flood fill | Medium |
 | 200 | [numIslandsBFS.ts](numIslandsBFS.ts) | Number of Islands (BFS) | Same as above but uses BFS flood fill instead of DFS | Medium |
+| 210 | [findOrder.ts](findOrder.ts) | Course Schedule II | Return a valid course ordering using topological sort (Kahn's BFS) | Medium |
 
 ### Sorting Algorithms
 
