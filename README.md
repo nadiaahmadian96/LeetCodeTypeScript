@@ -23,6 +23,8 @@ Each file includes a comment block at the top describing the problem, example, a
 | 303 | [NumArray.ts](NumArray.ts) | Range Sum Query - Immutable | Answer range sum queries in O(1) using a prefix sum array | Easy |
 | 268 | [missingNumber.ts](missingNumber.ts) | Missing Number | Find the one missing number in a range [0, n] using Gauss's formula | Easy |
 | 283 | [moveZeroes.ts](moveZeroes.ts) | Move Zeroes | Move all zeros to the end in-place while preserving relative order | Easy |
+| 169 | [majorityElement.ts](majorityElement.ts) | Majority Element | Find the element appearing more than n/2 times using Boyer-Moore voting | Easy |
+| 412 | [FizzBuzz.ts](FizzBuzz.ts) | Fizz Buzz | Map each number 1..n to "Fizz", "Buzz", "FizzBuzz", or itself | Easy |
 
 ### Strings & Sliding Window
 
@@ -30,6 +32,7 @@ Each file includes a comment block at the top describing the problem, example, a
 |---|------|---------|---------------------|------------|
 | 3 | [lengthOfLongestSubstring.ts](lengthOfLongestSubstring.ts) | Longest Substring Without Repeating Characters | Find the length of the longest substring with all unique characters | Medium |
 | 20 | [validParantheses.ts](validParantheses.ts) | Valid Parentheses | Determine if a bracket string is correctly opened and closed | Easy |
+| 13 | [romanToInteger.ts](romanToInteger.ts) | Roman to Integer | Convert a roman numeral string to an integer using subtractive notation rules | Easy |
 | 125 | [palindromeCheck.ts](palindromeCheck.ts) | Valid Palindrome | Check if a string reads the same forward and backward after cleaning | Easy |
 | 242 | [anagram.ts](anagram.ts) | Valid Anagram | Determine if two strings are anagrams using a character frequency map | Easy |
 | 344 | [reverseString.ts](reverseString.ts) | Reverse String | Reverse a character array in-place using two pointers | Easy |
@@ -84,6 +87,13 @@ Each file includes a comment block at the top describing the problem, example, a
 | 322 | [coinChange.ts](coinChange.ts) | Coin Change | Find the fewest coins that sum to a target amount | Medium |
 | 1143 | [longestCommonSubsequence.ts](longestCommonSubsequence.ts) | Longest Common Subsequence | Find the length of the longest common subsequence of two strings | Medium |
 | 139 | [workBreak.ts](workBreak.ts) | Word Break | Determine if a string can be segmented into valid dictionary words | Medium |
+
+### Math & Bit Manipulation
+
+| # | File | Problem | What You're Solving | Difficulty |
+|---|------|---------|---------------------|------------|
+| 204 | [countPrimes.ts](countPrimes.ts) | Count Primes | Count primes less than n using the Sieve of Eratosthenes | Medium |
+| 231 | [powerOfTwo.ts](powerOfTwo.ts) | Power of Two | Determine if n is a power of two using a single bitwise AND check | Easy |
 
 ## Setup
 
